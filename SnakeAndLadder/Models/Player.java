@@ -3,8 +3,8 @@ package SnakeAndLadder.Models;
 import java.util.UUID;
 
 public class Player {
-    private String playerName;
-    private String playerId;
+    private final String playerName;
+    private final String playerId;
 
     public Player(String playerName) {
         this.playerName = playerName;
@@ -20,5 +20,3 @@ public class Player {
     }
     
 }
-
-
